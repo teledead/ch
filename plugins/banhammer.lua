@@ -180,7 +180,7 @@ local function run(msg, matches)
       else
 		local cbres_extra = {
 		chat_id = msg.to.id,
-		get_cmd = 'ban',
+		get_cmd = 'bn',
 		from_id = msg.from.id
 		}
 		local username = matches[2]
@@ -207,7 +207,7 @@ local function run(msg, matches)
       else
 		local cbres_extra = {
 			chat_id = msg.to.id,
-			get_cmd = 'unban',
+			get_cmd = 'unbn',
 			from_id = msg.from.id
 		}
 		local username = matches[2]
@@ -243,7 +243,7 @@ if matches[1]:lower() == 'kk' then
 	else
 		local cbres_extra = {
 			chat_id = msg.to.id,
-			get_cmd = 'kick',
+			get_cmd = 'kk',
 			from_id = msg.from.id
 		}
 		local username = matches[2]
@@ -273,7 +273,7 @@ end
       else
 	local cbres_extra = {
 		chat_id = msg.to.id,
-		get_cmd = 'banall',
+		get_cmd = 'sbn',
 		from_id = msg.from.id
 	}
 		local username = matches[2]
@@ -293,7 +293,7 @@ end
       else
 	local cbres_extra = {
 		chat_id = msg.to.id,
-		get_cmd = 'unbanall',
+		get_cmd = 'unsbn',
 		from_id = msg.from.id
 	}
 		local username = matches[2]
