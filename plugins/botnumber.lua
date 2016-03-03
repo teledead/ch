@@ -6,7 +6,7 @@ end
 
 return {
 patterns = {
-"^!botnumber$"
+"^!BOt$"
 
 },
 run = run
