@@ -228,6 +228,7 @@ function create_config( )
     "inpm",
     "inrealm",
     "invite",
+    "leave",
     "leave_ban",
     "linkpv",
     "location",
@@ -250,8 +251,8 @@ function create_config( )
     about_text = [[
 https://github.com/BH-YAGHI/NOD32-BOT.git
 
-channel : @Nod32team
-sodu : @behrooZyaghi
+channel : @HACKANDEVILBOT
+sodu : @Xx_shah_zaq_xX
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -316,21 +317,23 @@ Only sudo users can run this command
 !bc 123456789 Hello !
 This command will send text to [group_id]
 
-ch: @Nod32team
+channel : @HACKANDEVILBOT
+
+sodu : @Xx_shah_zaq_xX
 
 ]],
     help_text = [[
-NOD32 Commands list :
+EVILBOT Commands list :
  
 1-banhammer list ^
  
-!kick [username|id]
+!kk [username|id]
 (کیک کردن شخص (حتی با ریپلی)
 
-!ban [ username|id]
+!bn [ username|id]
 (بن کردن افراد (حتی با ریپلی)
 
-!unban [id]
+!unbn [id]
 (انبن کردن افراد (همراه ایدی)
 
 !kickinactive
@@ -350,38 +353,38 @@ NOD32 Commands list :
 !stats
 امار کلی گروه
 
-!modlist
+!mods
 لیست مدیران گروه
 
-!banlist
+!bnlis
 لیست اعضا بن شده
 
 3-Rate Member ^
 
-!setowner [id]
+!stoner [id]
 (id ایجاد مدیر جدید (همراه 
 
-!promote [username]
+!stmod [username]
 (ایجاد ادمین جدید (همراه ریپلی)
 
-!demote [username]
+!rmmod [username]
 (برکنار کردن ادمین (همراه ریپلی)
 
 4-General changes ^
 
-!setname [name]
+!stnam [name]
 ایجاد اسم جدید برای گروه
 
-!setphoto
+!stphoto
 ایجاد عکس جدید برای پروفایل گروه
 
-!set rules <text>
+!st rules <text>
 ایجاد قانون جدید برای گروه
 
-!set about <text>
+!st about <text>
 ایجاد درباره گروه
 
-!setflood [value]
+!stflod [value]
 حساسیت به اسپم در گروه
 
 5-View details ^
@@ -392,10 +395,10 @@ NOD32 Commands list :
 !rules
 قوانین گروه
 
-!settings
+!sting
 دیدن تنظیمات فعلی گروه
 
-!help
+!hlp
 لیست دستورات ربات
 
 6-Security Group ^
@@ -455,7 +458,7 @@ NOD32 Commands list :
 
 8-Service Provider ^
 
-!newlink
+!nwlink
 ایجاد لینک جدید
 
 !link
@@ -482,7 +485,7 @@ NOD32 Commands list :
 !info 
 مخشصات فرد مورد نظر
 
-!settings
+!sting
 تنظیمات فعلی گروه
 
 10-filter word Mode ^
@@ -501,7 +504,7 @@ NOD32 Commands list :
 
 11-bot number & support ^
 
-!botnumber
+!BOT
 دریافت شماره ربات
 
 !support
@@ -517,7 +520,9 @@ NOD32 Commands list :
 you can use both "/" and "!" 
 .شما میتوانید از ! و / استفاده کنید
 
-channel: @Nod32Team
+channel : @HACKANDEVILBOT
+
+sodu : @Xx_shah_zaq_xX
 
 G00D LUCK ^_^
 ]]
