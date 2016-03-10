@@ -259,64 +259,64 @@ sodu : @Xx_shah_zaq_xX
     help_text_realm = [[
 Realm Commands:
 
-!creategroup [Name]
+creategroup [Name]
 Create a group
 
-!createrealm [Name]
+createrealm [Name]
 Create a realm
 
-!setname [Name]
+setname [Name]
 Set realm name
 
-!setabout [GroupID] [Text]
+setabout [GroupID] [Text]
 Set a group's about text
 
-!setrules [GroupID] [Text]
+setrules [GroupID] [Text]
 Set a group's rules
 
-!lock [GroupID] [setting]
+lock [GroupID] [setting]
 Lock a group's setting
 
-!unlock [GroupID] [setting]
+unlock [GroupID] [setting]
 Unock a group's setting
 
-!wholist
+wholist
 Get a list of members in group/realm
 
-!who
+who
 Get a file of members in group/realm
 
-!type
+type
 Get group type
 
-!kill chat [GroupID]
+kill chat [GroupID]
 Kick all memebers and delete group
 
-!kill realm [RealmID]
+kill realm [RealmID]
 Kick all members and delete realm
 
-!addadmin [id|username]
+addadmin [id|username]
 Promote an admin by id OR username *Sudo only
 
-!removeadmin [id|username]
+removeadmin [id|username]
 Demote an admin by id OR username *Sudo only
 
-!list groups
+list groups
 Get a list of all groups
 
-!list realms
+list realms
 Get a list of all realms
 
-!log
+log
 Grt a logfile of current group or realm
 
-!broadcast [text]
-!broadcast Hello !
+broadcast [text]
+broadcast Hello !
 Send text to all groups
 Only sudo users can run this command
 
-!bc [group_id] [text]
-!bc 123456789 Hello !
+bc [group_id] [text]
+bc 123456789 Hello !
 This command will send text to [group_id]
 
 channel : @HACKANDEVILBOT
@@ -329,113 +329,113 @@ EVILBOT Commands list :
  
 1-banhammer list ^
  
-!kk [username|id]
+kk [username|id]
 (کیک کردن شخص (حتی با ریپلی)
 
-!bn [ username|id]
+bn [ username|id]
 (بن کردن افراد (حتی با ریپلی)
 
-!unbn [id]
+unbn [id]
 (انبن کردن افراد (همراه ایدی)
 
-!kickinactive
+kickinactive
 حذف اعضای غیرغعال گروه
 
-!kickme
+kickme
 خروج از گروه
 
 2-Statistics list ^
 
-!who
+who
 لیست+ایدی همه اعضا
 
-!all
+all
 دریافت اطلاعات کلی گروه
 
-!stats
+stats
 امار کلی گروه
 
-!mods
+mods
 لیست مدیران گروه
 
-!bnlis
+bnlis
 لیست اعضا بن شده
 
 3-Rate Member ^
 
-!stoner [id]
+stoner [id]
 (id ایجاد مدیر جدید (همراه 
 
-!stmod [username]
+stmod [username]
 (ایجاد ادمین جدید (همراه ریپلی)
 
-!rmmod [username]
+rmmod [username]
 (برکنار کردن ادمین (همراه ریپلی)
 
 4-General changes ^
 
-!stnam [name]
+stnam [name]
 ایجاد اسم جدید برای گروه
 
-!stphoto
+stphoto
 ایجاد عکس جدید برای پروفایل گروه
 
-!st rules <text>
+st rules <text>
 ایجاد قانون جدید برای گروه
 
-!st about <text>
+st about <text>
 ایجاد درباره گروه
 
-!stflod [value]
+stflod [value]
 حساسیت به اسپم در گروه
 
 5-View details ^
 
-!about
+about
 درباره گروه
 
-!rules
+rules
 قوانین گروه
 
-!sting
+sting
 دیدن تنظیمات فعلی گروه
 
-!hlp
+hlp
 لیست دستورات ربات
 
 6-Security Group ^
 
-!lock member 
+lock member 
 قفل ورود اعضا جدید
 
-!lock join
+lock join
 قفل ورود اعضا جدید توسط لینک
 
-!lock name
+lock name
 قفل اسم گروه
 
-!lock chat
+lock chat
 قفل چت ممنوع
 
-!lock ads
+lock ads
 قفل تبلیغات
 
-!lock leave
+lock leave
 قفل خروج=بن گروه
 
-!lock fosh
+lock fosh
 ممنوع کردن فحش
 
-!lock chat
+lock chat
 قفل چت ممنوع گروه
 
-!antibot enable 
+antibot enable 
 ورود ربات ها ممنوع
 
-!antibot disable
+antibot disable
 ورود ربات ها ازاد
 
-!unlock xxxx
+unlock xxxx
 [*name*leave*member]
 [*fosh*ads]
 [chat*join*photo]
@@ -443,13 +443,13 @@ EVILBOT Commands list :
 
 7-Fun time ^
 
-!time country city
+time country city
 ساعت کشور مورد نظر
 
-!loc country city
+loc country city
 مشخصات کشور و شهر مورد نظر
 
-!google
+google
 سرچ مطلب مورد نظر از گوگل
  
  !gps
@@ -460,10 +460,10 @@ EVILBOT Commands list :
 
 8-Service Provider ^
 
-!nwlink
+nwlink
 ایجاد لینک جدید
 
-!link
+link
 نمایش لینک گروه
 
 !linkpv
@@ -478,16 +478,16 @@ EVILBOT Commands list :
 !owner
 مدیر گروه
 
-!id
+id
 ایدی شخص مورد نظر
 
-!res [username]
+res [username]
 در اوردن ایدی شخص مورد نظر
 
 !info 
 مخشصات فرد مورد نظر
 
-!sting
+sting
 تنظیمات فعلی گروه
 
 10-filter word Mode ^
@@ -506,21 +506,20 @@ EVILBOT Commands list :
 
 11-bot number & support ^
 
-!BOT
+bot
 دریافت شماره ربات
 
-!support
+support
 دعوت سازنده ربات به گروه
 (در صورت وجود مشکل)
 
-!version
+version
 ورژن ربات
 
 !feedback (text)
 ارسال نظرات به سازنده
 
-you can use both "/" and "!" 
-.شما میتوانید از ! و / استفاده کنید
+دستورات بدون ....!.../..کار میکند
 
 channel : @HACKANDEVILBOT
 
